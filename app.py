@@ -16,9 +16,7 @@ import hashlib
 # CONFIGURATION
 # ============================================================================
 
-APP_PASSWORD = "vera2026"
-
-# Iowa colors
+APP_# Iowa colors
 IA_BLUE = "#002868"
 IA_RED = "#BF0A30"
 IA_GOLD = "#FFCD00"
@@ -1087,9 +1085,6 @@ def main():
         }}
     </style>
     """, unsafe_allow_html=True)
-
-    if not check_password():
-        return
 
     districts_df = load_districts()
     elpa21_df = load_elpa21_data()
