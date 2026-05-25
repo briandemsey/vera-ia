@@ -16,7 +16,7 @@ import hashlib
 # CONFIGURATION
 # ============================================================================
 
-APP_# Iowa colors
+# Iowa colors
 IA_BLUE = "#002868"
 IA_RED = "#BF0A30"
 IA_GOLD = "#FFCD00"
